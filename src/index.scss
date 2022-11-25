@@ -4,14 +4,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e7f6ff;
-}
-
-body h1 {
-  color: #2a064e;
+  h1 {
+    color: rgb(42, 6, 78);
+  }
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .wrapper {
@@ -21,18 +21,17 @@ code {
   max-width: 1080px;
   margin: 50px auto;
 }
-
 header {
   border-bottom: 1px solid #eaeaea;
+  h3,
+  p {
+    margin: 0;
+  }
 }
-
-header h3,
-header p {
-  margin: 0;
-}
-
-.content h1 {
-  margin: 0;
+.content {
+  h1 {
+    margin: 0;
+  }
 }
 
 .card {
@@ -42,13 +41,11 @@ header p {
   width: 210px;
   margin-right: 30px;
   position: relative;
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
-
-.card h5 {
-  font-weight: 400;
-  font-size: 14px;
-}
-
 .button {
   background: #ffffff;
   border: 1px solid #f2f2f2;
